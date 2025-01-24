@@ -1,0 +1,1655 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+elma_project {
+    font-family: 'Roboto', serif;
+    color: #fff;
+}
+
+.EA-top-bar {
+    background-color: #6e0101;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.EA-Container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+.EA-ikona-shkrimi {
+    margin-right: 60px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap;
+}
+
+.EA-top-left span,
+.EA-top-right span {
+    margin-right: 20px;
+    color: white;
+}
+
+.EA-top-right a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.EA-navbar {
+    background-image: linear-gradient(0deg, rgba(210, 1, 1, 0.7), rgba(210, 1, 1, 0.7)), url("foto/cinematic-style-malll.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.EA-CONTAINER {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.EA-logo {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.EA-logo i {
+    margin-right: 8px;
+    color: white;
+}
+
+.EA-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.EA-menu li {
+    margin: 0 15px;
+    color: white;
+}
+
+.EA-menu li:hover {
+    background-color: #3b0101;
+    padding: 7px 25px;
+    color: black;
+}
+
+.EA-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.EA-btn {
+    background-color: #fd7a7a;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0px;
+}
+
+.EA-btn:hover {
+    background-color: #6e0101;
+    transition: 0.5s;
+    color: white;
+}
+
+.EA-hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.EA-hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+}
+
+.EA-menu {
+    display: flex;
+}
+
+.EA-menu.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.EA-hero {
+    background: linear-gradient(0deg, rgba(210, 1, 1, 0.7), rgba(210, 1, 1, 0.7)), url(foto/cinematic-style-mall.jpg);
+    height: 100vh;
+    padding: 0;
+    position: relative;
+    opacity: #6e0101 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.EA-container-hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.EA-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: right;
+}
+
+.EA-paragrafi1 {
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.EA-titulli {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    font-weight: 100;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+
+}
+
+.EA-paragrafi2 {
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.EA-btn-hero {
+    margin: auto;
+    padding: 12px 49px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.EA-btn-hero:hover {
+    background-color: #6e0101;
+    transition: 0.5s;
+    color: white;
+}
+
+.EA-forma-qrregullt {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
+    width: 520px;
+    height: 310px;
+    background: url(foto/autoo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 71% 29% 34% 66% / 75% 27% 73% 25%;
+    transition: border-radius 500ms ease-in-out;
+
+}
+
+.EA-forma-qrregullt:hover {
+    border-radius: 30% 70% 74% 26% / 36% 67% 33% 64%;
+}
+
+
+
+.EA-rrethnesh {
+    width: auto;
+    font-family: 'Roboto', serif;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.EA-container-about {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+.EA-forma-qrregullt1 {
+    width: 626px;
+    height: 417px;
+    background: url(foto/drivingtest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30% 70% 66% 34% / 42% 56% 44% 58%;
+    transition: border-radius 500ms ease-in-out;
+    margin-right: 40px;
+}
+
+.EA-forma-qrregullt1:hover {
+    border-radius: 37% 63% 73% 27% / 42% 28% 72% 58%;
+}
+
+.EA-content-rrethnesh {
+    flex: 1;
+    padding: 40px;
+    color: #1c1e21;
+
+}
+
+.EA-paragrafi3 {
+    font-size: 20px;
+    font-weight: 100;
+    color: navy;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.EA-titulli-rrethnesh {
+    font-size: 2.5rem;
+    color: #6e0101;
+    margin-bottom: 20px;
+}
+
+.EA-paragrafi4 {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.EA-btn-rrethnesh {
+    background-color: #6e0101;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+.EA-btn-rrethnesh:hover {
+    background-color: #a51a1a;
+}
+
+
+.EA-sektori-statistikave {
+    background-color: #6e0101;
+    color: white;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+}
+
+.EA-container-stat {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.EA-content-sektori {
+    margin-bottom: 40px;
+}
+
+.EA-fakte {
+    color: #310606;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.EA-titulli-fakte {
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+.EA-statistikat {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.EA-artikulli-statistikave {
+    text-align: center;
+    max-width: 200px;
+}
+
+.EA-artikulli-statistikave i {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.EA-artikulli-statistikave h2 {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.EA-artikulli-statistikave p {
+    font-size: 16px;
+    color: #c9c5c5;
+}
+
+.EA-seksioni-autoshkolles {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.EA-container-sek {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.EA-nentitulli {
+    color: #b22222;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.EA-titulli-sek {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.EA-pershkrimi {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.EA-kartat {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.EA-karta {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.EA-karta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.EA-karta .ikona {
+    font-size: 2.5rem;
+    color: #b22222;
+    margin-bottom: 15px;
+}
+
+.EA-karta h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.EA-karta p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.EA-karta a {
+    color: #b22222;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.EA-karta a i {
+    margin-left: 5px;
+    transition: margin-left 0.3s;
+}
+
+.EA-karta a:hover i {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .EA-kartat {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .EA-kartat {
+        grid-template-columns: 1fr;
+    }
+}
+
+.EA-content-section {
+    text-align: left;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.EA-container4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.EA-text-section {
+    margin-left: 70px;
+}
+
+.EA-text-section h4 {
+    color: #484242;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.EA-mbititulli {
+    margin-left: 90px;
+    padding-left: 90px;
+}
+
+.EA-drejtsuksesit {
+    margin-left: 90px;
+    padding-left: 90px;
+}
+
+.EA-text-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #6e0101;
+}
+
+.EA-text-section p {
+    font-size: 1rem;
+    color: #5f6368;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: 90px;
+    padding-left: 90px;
+}
+
+.EA-content1 {
+    text-align: left;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.EA-container4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.EA-text-section h4 {
+    color: #484242;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.EA-mbititulli {
+    margin-left: 90px;
+    padding-left: 90px;
+}
+
+.EA-drejtsuksesit {
+    margin-left: 90px;
+    padding-left: 90px;
+}
+
+.EA-text-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #6e0101;
+}
+
+.EA-text-section p {
+    font-size: 1rem;
+    color: #5f6368;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: 90px;
+    padding-left: 90px;
+}
+
+.EA-SHKALLA-PERQINDJES {
+    margin-top: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.EA-success-rate {
+    margin-left: 150px;
+    padding-left: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.EA-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#6e0101 0% 80%,
+            #e0e0e0 80% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EA-inner-circle {
+    width: 90px;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EA-inner-circle span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6e0101;
+}
+
+.EA-success-text h3 {
+    font-size: 1.25rem;
+    color: #202124;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.EA-shkrimi-kryesor {
+    display: flex;
+    flex-direction: column;
+}
+
+.EA-success-text p {
+    font-size: 0.9rem;
+    color: #5f6368;
+}
+
+.EA-formaqrregullt3 {
+    width: 626px;
+    height: 417px;
+    margin-right: 230px;
+    padding-right: 230px;
+    padding-top: 400px;
+    margin-bottom: 60px;
+    background: url(foto/drivinglicence.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    border-radius: 30% 70% 27% 73% / 50% 30% 70% 50%;
+    transition: border-radius 500ms ease-in-out;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.EAformaqrregullt3:hover {
+    border-radius: 37% 63% 73% 27% / 42% 28% 72% 58%;
+}
+
+
+
+.EA-procesi-punes {
+    text-align: center;
+    background-color: #ffb2b2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.EA-pp-mbititulli {
+    color: #8c8c8c;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.EA-pp-titulli {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.EA-hapat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.EA-hapi {
+    width: 22%;
+    text-align: center;
+    position: relative;
+}
+
+.span {
+    display: flex;
+    flex-direction: row;
+}
+
+.EA-pp-rrethi {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    border: 2px solid #6e0101;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6e0101;
+}
+
+.EA-pp-rrethi.kuq {
+    background-color: #6e0101;
+    color: white;
+}
+
+.EA-hapi h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.EA-hapi p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.EA-dashed-line {
+    width: 40px;
+    height: 2px;
+    background-color: transparent;
+    border-top: 3px dashed #6e0101;
+}
+
+
+
+.EA-INSTRUKTORET {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.EA-sektori-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 90%;
+}
+
+.EA-intro-team {
+    max-width: 40%;
+    text-align: left;
+    margin-top: 50px;
+    padding-left: 40px;
+
+}
+
+.EA-intro-team h5 {
+    color: navy;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.EA-intro-team h1 {
+    color: #1a1a1a;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.EA-intro-team p {
+    color: #555555;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.EA-intro-team ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.EA-intro-team ul li {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.EA-intro-team ul li span {
+    color: #6e0101;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.EA-btn-intro {
+    background-color: #6e0101;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.EA-team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 55%;
+}
+
+.EA-member {
+    text-align: center;
+    width: calc(33% - 20px);
+}
+
+.EA-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.EA-member h3 {
+    color: #1a1a1a;
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.EA-member p {
+    color: #555555;
+    font-size: 14px;
+}
+
+
+
+
+.EA-pricing-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.EA-plani-yt {
+    font-size: 20px;
+    font-weight: 600;
+    color: #6e0101;
+    margin-bottom: 30px;
+}
+
+.EA-titulli-cmimi {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0d1a26;
+    margin-bottom: 30px;
+}
+
+.EA-pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.EA-pricing-card {
+    background: #f9f9f9;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.EA-pricing-card:hover {
+    transform: translateY(-5px);
+}
+
+.EA-pricing-card h2 {
+    font-size: 1.5rem;
+    color: #0d1a26;
+    margin-bottom: 10px;
+}
+
+.EA-price {
+    font-size: 2.5rem;
+    color: #6e0101;
+    margin: 10px 0;
+}
+
+.EA-price span {
+    font-size: 1rem;
+    color: #666;
+}
+
+.EA-description {
+    color: #666;
+    margin: 15px 0;
+    font-size: 0.9rem;
+}
+
+.EA-pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.EA-pricing-card ul li {
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+.EA-choose-btn11 {
+    display: inline-block;
+    width: 100%;
+    background-color: #930707;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.EA-choose-btn11:hover {
+    background-color: #6e0101;
+}
+
+.EA-choose-btn-pro {
+    display: inline-block;
+    width: 90%;
+    color: #6e0101;
+    border: 3px solid #6e0101;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.EA-choose-btn-pro:hover {
+    background-color: #9f0a0a;
+    color: white;
+}
+
+.EA-pricing-card-professional {
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.EA-pricing-card-professional ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.EA-pricing-card-professional ul li {
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+.EA-faq-section {
+
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+.EA-faq-container {
+    padding-left: 45px;
+    margin-left: 45px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.EA-faq-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.EA-faq-left {
+    flex: 1;
+    padding-right: 160px;
+}
+
+.EA-faq-left h2 {
+    text-align: left;
+    font-size: 30px;
+    color: #6e0101;
+    margin-bottom: 10px;
+}
+
+.EA-faq-left p {
+    text-align: left;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.EA-info {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #a80000;
+}
+
+.EA-faq-btn {
+    display: flex;
+    align-content: flex-start;
+    background-color: #6e0101;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.EA-faq-right {
+    flex: 2;
+}
+
+.EA-faq-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.EA-faq-question {
+    width: 100%;
+    background: none;
+    border: 2px solid #9d9898;
+    text-align: left;
+    font-size: 16px;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.EA-faq-answer {
+    display: none;
+    padding: 10px 15px;
+    background-color: #6e0101;
+    border-radius: 4px;
+    color: white;
+}
+
+.EA-icon {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+.EA-abonimi {
+    background-color: #6e0101;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.EA-container-abonimit {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.EA-nenshkrim {
+    color: #ff6f3c;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.EA-h1-abonimi {
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.EA-abonimi-form {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.EA-email-input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+}
+
+.EA-email-input::placeholder {
+    color: #aaa;
+}
+
+.EA-subscribe-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: #d10202;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.EA-subscribe-button:hover {
+    background-color: #f82600;
+}
+
+
+
+
+
+.EA-footer-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    color: #333;
+}
+
+.EA-footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.EA-contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.EA-info-box {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.EA-info-box .EA-Icon {
+    font-size: 30px;
+    color: #6e0101;
+    margin-right: 20px;
+}
+
+.EA-info-box .EA-info-text p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.EA-info-box .EA-info-text h3 {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #6e0101;
+}
+
+
+.EA-footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.EA-about,
+.EA-links {
+    max-width: 300px;
+}
+
+.EA-about i {
+    font-size: 24px;
+    color: #6e0101;
+    margin-bottom: 10px;
+}
+
+.EA-links h4 {
+    font-size: 24px;
+    color: #6e0101;
+    margin-bottom: 10px;
+}
+
+.EA-about p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.EA-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.EA-links ul li {
+    margin-bottom: 10px;
+}
+
+.EA-links ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.EA-links ul li a:hover {
+    color: #6e0101;
+}
+
+.EA-links-social {
+    grid-column: span 1;
+    text-align: right;
+}
+
+.EA-links-social ul {
+    display: inline-block;
+    text-align: left;
+
+}
+
+.EA-links-social ul li a i {
+    margin-right: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #6e0101;
+}
+
+
+.EA-fundi {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+    border: 1px #666;
+}
+
+hr {
+    width: 75%;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.EA-fundi p {
+    padding-bottom: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .EA-Container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .EA-navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .EA-logo {
+        margin-bottom: 15px;
+    }
+
+    .EA-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .EA-top-bar {
+        padding: 10px 0;
+    }
+
+    .EA-ikona-shkrimi {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .EA-top-right {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .EA-hamburger {
+        display: flex;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .EA-logo {
+        font-size: 24px;
+    }
+
+    .EA-menu a {
+        font-size: 14px;
+    }
+
+    .EA-btn {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .EA-top-left span,
+    .EA-top-right span {
+        font-size: 12px;
+    }
+
+    .EA-top-right a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .EA-container-hero {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .EA-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .EA-titulli {
+        font-size: 40px;
+    }
+
+    .EA-paragrafi1,
+    .EA-paragrafi2 {
+        font-size: 16px;
+    }
+
+    .EA-btn-hero {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+    .EA-forma-qrregullt {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .EA-titulli {
+        font-size: 30px;
+    }
+
+    .EA-paragrafi1,
+    .EA-paragrafi2 {
+        font-size: 14px;
+    }
+
+    .EA-btn-hero {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .EA-forma-qrregullt {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .EA-container-about {
+        padding: 10px;
+    }
+
+    .EA-forma-qrregullt1 {
+        display: none;
+    }
+
+    .EA-titulli-rrethnesh {
+        font-size: 1.5rem;
+    }
+
+    .EA-paragrafi4 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .EA-titulli-rrethnesh {
+        font-size: 1.2rem;
+    }
+
+    .EA-paragrafi4 {
+        font-size: 0.8rem;
+    }
+
+    .EA-btn-rrethnesh {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .EA-container-stat {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .EA-statistikat {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .EA-titulli-fakte {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .EA-fakte {
+        text-align: center;
+    }
+
+    .EA-artikulli-statistikave h2 {
+        font-size: 40px;
+    }
+
+    .EA-artikulli-statistikave i {
+        font-size: 40px;
+    }
+
+    .EA-artikulli-statistikave p {
+        font-size: 14px;
+    }
+
+    .EA-content-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .EA-text-section {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .EA-mbititulli,
+    .EA-drejtsuksesit,
+    .EA-text-section p {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .EA-success-rate {
+        margin-left: 0;
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+    .EA-formaqrregullt3 {
+        display: none;
+
+    }
+
+    .EA-procesi-punes {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .EA-INSTRUKTORET {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .EA-INSTRUKTORET {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .EA-pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .EA-pricing-card {
+        width: 100%;
+        max-width: 400px;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .EA-pricing-section {
+        padding: 30px 10px;
+    }
+
+    .EA-pricing-card {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .EA-pricing-card {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .EA-faq-container {
+        padding: 15px;
+        margin-left: 0;
+    }
+
+    .EA-faq-left h2 {
+        font-size: 20px;
+    }
+
+    .EA-faq-question {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .EA-faq-answer {
+        font-size: 14px;
+    }
+
+    .EA-faq-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .EA-h1-abonimi {
+        font-size: 24px;
+    }
+
+    .EA-nenshkrim {
+        font-size: 16px;
+    }
+
+    .EA-abonimi {
+        padding: 30px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .EA-h1-abonimi {
+        font-size: 20px;
+    }
+
+    .EA-nenshkrim {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .EA-contact-info {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .EA-footer-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .EA-links-social {
+        text-align: left;
+    }
+
+    hr {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .EA-footer-section {
+        display: none;
+    }
+
+
+    hr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    hr {
+        width: 90%;
+    }
+
+    .EA-fundi p {
+        font-size: 12px;
+    }
+}

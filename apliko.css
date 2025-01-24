@@ -1,0 +1,53 @@
+ea_apliko {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.EA-header {
+    background-color: #333;
+    color: white;
+}
+
+.EA-application-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.EA-application-form h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.EA-application-form .form-label {
+    font-weight: bold;
+}
+
+.EA-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .EA-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .EA-application-form h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .EA-header h1 {
+        font-size: 1.6rem;
+    }
+
+    .EA-application-form h2 {
+        font-size: 1.3rem;
+    }
+}

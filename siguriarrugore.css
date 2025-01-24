@@ -1,0 +1,55 @@
+.EA_siguriarrugore {
+    font-family: 'Roboto', serif;
+}
+
+.EA-header {
+    font-family: 'Roboto', serif;
+    line-height: 1.6;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.EA-header {
+    background-color: #8b0000;
+    color: #fff;
+    position: sticky;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.EA-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.EA-header p {
+    font-size: 1.2rem;
+}
+
+.EA-container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.EA-back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6e0101;
+    font-weight: bold;
+}
+
+.EA-back-link:hover {
+    text-decoration: underline;
+}
+
+.EA-footer {
+    text-align: center;
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 0px;
+}

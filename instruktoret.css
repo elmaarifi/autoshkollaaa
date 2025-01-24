@@ -1,0 +1,52 @@
+    .ea_inst {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        background-color: #f8f9fa;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    .about-us-section img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .about-us-section {
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 768px) {
+        .carousel-caption h5 {
+            font-size: 1.5rem;
+        }
+
+        .carousel-caption p {
+            font-size: 1rem;
+        }
+
+        .about-us-section {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .carousel-caption h5 {
+            font-size: 1.2rem;
+        }
+
+        .carousel-caption p {
+            font-size: 0.9rem;
+        }
+    }

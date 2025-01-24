@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.EA-rrethnesh {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f8f9fa;
+}
+
+.EA-custom-header {
+    background: #8b0000;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.EA-custom-header .EA-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.EA-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.EA-back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.EA-back-link:hover {
+    text-decoration: underline;
+}
+
+.EA-hero-section {
+    background-image: linear-gradient(0deg, rgba(210, 1, 1, 0.7), rgba(210, 1, 1, 0.7)), url("foto/arifi.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.EA-hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.EA-hero-section p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.EA-about-section {
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.EA-about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.EA-about-text {
+    flex: 2;
+    max-width: 600px;
+}
+
+.EA-about-text h2 {
+    font-size: 28px;
+    color: #292b2c;
+    margin-bottom: 10px;
+}
+
+.EA-about-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.EA-about-text ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.EA-about-text ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.EA-about-image {
+    flex: 1;
+    text-align: right;
+}
+
+.EA-about-image img {
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.EA-about-image video {
+    max-width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30% 70% 66% 34% / 42% 56% 44% 58%;
+    transition: border-radius 500ms ease-in-out;
+    margin-right: 0;
+}
+
+.EA-about-image video:hover {
+    border-radius: 37% 63% 73% 27% / 42% 28% 72% 58%;
+}
+
+
+.EA-custom-footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #8b0000;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    .EA-about-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .EA-about-text, .EA-about-image {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .EA-about-image video {
+        max-width: 80%;
+    }
+
+    .EA-hero-section {
+        padding: 50px 20px;
+    }
+
+    .EA-hero-section h1 {
+        font-size: 36px;
+    }
+
+    .EA-hero-section p {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .EA-custom-header .EA-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .EA-logo {
+        font-size: 20px;
+    }
+
+    .EA-back-link {
+        font-size: 14px;
+    }
+
+    .EA-hero-section h1 {
+        font-size: 28px;
+    }
+
+    .EA-hero-section p {
+        font-size: 14px;
+    }
+
+    .EA-about-text h2 {
+        font-size: 24px;
+    }
+
+    .EA-about-text p, .EA-about-text ul li {
+        font-size: 14px;
+    }
+
+    .EA-custom-footer {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,68 @@
+EA_simulimiiprovimit {
+    font-family: 'Roboto', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.EA-header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #800000;
+    color: #fff;
+}
+
+.EA-header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.EA-header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.EA-content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.EA-content h2 {
+    color: #800000;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.EA-back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color: #6e0101;
+    font-weight: bold;
+}
+
+.EA-back-link:hover {
+    text-decoration: underline;
+}
+
+.EA-cta a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #800000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.EA-cta a:hover {
+    background-color: #660000;
+}

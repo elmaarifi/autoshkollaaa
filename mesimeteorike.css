@@ -1,0 +1,67 @@
+EA_mesimeteorike {
+    font-family: 'Roboto', serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.EA-header {
+    background-color: #6e0101;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin: auto;
+}
+
+.EA-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.EA-header p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+}
+
+.EA-main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.EA-main ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.EA-main ul li {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.EA-back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6e0101;
+    font-weight: bold;
+}
+
+.EA-back-link:hover {
+    text-decoration: underline;
+}
+
+
+.EA-footer {
+    background-color: #6e0101;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

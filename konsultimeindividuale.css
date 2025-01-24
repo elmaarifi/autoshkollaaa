@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+.ea_konind {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    color: #333;
+}
+
+.EA-header {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #8b0000, #450505);
+    color: #fff;
+    border-bottom: 5px solid #8b0000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.EA-header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.EA-header p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.EA-content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.EA-content h2 {
+    color: #5c0000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-left: 5px solid #8b0000;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.EA-description p, .EA-benefits ul, .EA-cta p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.EA-benefits ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.EA-benefits li {
+    margin-bottom: 12px;
+}
+
+.EA-cta {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.EA-cta a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, #8b0000, #450505);
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.EA-cta a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.EA-back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color: #6e0101;
+    font-weight: bold;
+}
+
+.EA-back-link:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
